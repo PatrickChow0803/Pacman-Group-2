@@ -1,0 +1,85 @@
+<!--
+  The section of the menu "Credits"
+  The list of names who participated in the development of the game
+  author Anastasia Miagkii - 05/12/2019
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Pacman</title>
+	<style>
+		body { }
+	#class_background {
+			position: absolute;
+			background-image: url('assets/map/class_room.png');
+			background-repeat: no-repeat;
+			background-size: 78% 98%;
+			background-position: center center;
+			top: 350px;
+			left: 50%;
+			width: 1000px;
+			height: 640px;
+			margin-top: -320px;
+			margin-left: -500px;
+		}
+		.menu {
+			position: absolute;
+			font-family: Arial;
+			font-size: 1rem;
+			font-style: normal;
+			top: 26px;
+			background-color: black;
+			width: 50%;
+			height: 310px;
+			display: block;
+			margin-left: 25%;
+			margin-right: 25%;
+			text-align: center;
+			z-index: 1;
+			right: 2px;
+			}
+		.caption{
+			background-color: #8B0000;
+			margin-top: -22px;
+			}
+		.back{
+			margin-top: 10px;
+			margin-left: 150px;
+			margin-right: 150px;
+			background-color: #FF0000;
+			border-radius: 20px;
+			}
+		.back:hover{
+			margin-top: 10px;
+			margin-left: 150px;
+			margin-right: 150px;
+			background-color: #b22222;
+			}
+		.optcolor{
+			background-color: black;
+			color: white;
+		}
+		
+		</style>
+	</head>
+	<body>
+	<div id="class_background">
+	<div class="menu">
+	<div class="caption">
+		<h1>Credits</h1>
+	</div>
+	<div class="optcolor">
+		<h5>  QA: <br/> Foster Brown, Josh Salame, Gary Kwan  </h5>
+		<h5>  GRAPHICS:<br/> Joel Feinberg, Zeeshan Mustafa, Wayland Huang, Emilio J. Franco </h5> 
+		 <h5> SPECIFICATION: <br/>Tania Nelzy, Tommy Huang, Cansu Zor, Noor ul Karim, Laish Soleyn</h5>
+		<h5> BACKBONE: <br/> Luanna Polanco, Anastasia Miagkii, Patrick Chow, Steven Hulse, Ruslan Pantaev </h5>
+			 
+
+	<div class="back" onClick="document.location='menu.html'">
+		<h2>Back</h2>
+	</div>
+	</div>
+	</div>
+</body>
+</html>

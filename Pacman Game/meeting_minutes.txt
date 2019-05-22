@@ -1,0 +1,22 @@
+BACKBONE MEETING MINUTES - GROUP 2
+=======================================================
+
+February 5th – We all introduced ourselves and joined the Slack group.
+
+February 12th – We all gauged how confident each person felt with HTML, CSS, and Javascript. It was determined that Luanna and Xiaojun would focus on HTML, Anastasia and Patrick would focus on CSS, Ruslan and Steven would focus on Javascript.
+
+February 19th – A general idea of the map has been completed. None of the graphics have been supplied yet so we decided to use temporary images to be used as place holders until they’re given.
+
+March 5th - Waiting on QA to set up the svn repository. Discussed pacman rules as well as how to approach programming the game. Also discussed ways to keep track of scores.
+
+March 12 - Still waiting on repo from QA to begin committing code. Team members are learning the rules of pacman as well as how to code in html/css/javascript.
+
+March 26th - We now have a repo, team members are beginning work. beginning work on creating a simple canvas for pacman movement but for now only consists of a black background with a yellow circle that can move with a directional key press.
+
+April 9th - directory structure for repo completed. Basic pacman canvas created. Beginning work on wall creation and detection as well as setting up a simple HTTP server
+
+April 30th- new backbone directory created. using graphics assets to create classroom background for canvas. wall rendering added, collision detection complete, beginning wall placement for maze
+
+May 7th - maze nearly complete. considering adding sounds.
+
+May 9th - song added to game, however browser privacy restrictions prevent autoplaying audio. still need ghosts, pill rendering and scores.

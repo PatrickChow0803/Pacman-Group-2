@@ -1,0 +1,85 @@
+<!--
+  Section from the menu "About Game"
+  Section of the menu "About game", which contains a description of the game
+  author Anastasia Miagkii - 05/12/2019
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>About Game</title>
+	<style>
+		body {  }
+		#class_background {
+			position: absolute;
+			background-image: url('assets/map/class_room.png');
+			background-repeat: no-repeat;
+			background-size: 78% 98%;
+			background-position: center center;
+			top: 350px;
+			left: 50%;
+			width: 1000px;
+			height: 640px;
+			margin-top: -320px;
+			margin-left: -500px;
+		}
+		.menu {
+			position: absolute;
+			font-family: Arial;
+			font-size: 1rem;
+			font-style: normal;
+			top: 26px;
+			background-color: black;
+			width: 50%;
+			height: 310px;
+			display: block;
+			margin-left: 25%;
+			margin-right: 25%;
+			text-align: center;
+			z-index: 1;
+			right: 2px;
+			}
+		.caption{
+			background-color: #8B0000;
+			margin-top: -22px;
+			}
+		.back{
+			margin-top: 30px;
+			margin-left: 150px;
+			margin-right: 150px;
+			background-color: #FF0000;
+			border-radius: 20px;
+			}
+		.back:hover{
+			margin-top: 30px;
+			margin-left: 150px;
+			margin-right: 150px;
+			background-color: #b22222;
+			}
+		.optcolor{
+			background-color: black;
+			color: white;
+		}
+		
+		</style>
+	</head>
+	<body>
+<div id="class_background">
+	<div class="menu">
+	<div class="caption">
+		<h1>About Game</h1>
+	</div>
+	<div class="optcolor">
+		<h3> Player has three lives by default. 
+	The goal of the game is to accumulate as many points as possible by collecting dots, fruits, and eating blue ghosts, while avoiding the trustee ghosts.  
+	When all of the dots in a stage are eaten, that stage is completed, and the player will advance to the next level. There will be three levels in total.
+One life is lost when Pac-Man is caught by a trustee. If all three lives are lost, it is game over.  </h3>
+
+	<div class="back" onClick="document.location='menu.html'">
+		<h2>Back</h2>
+	</div>
+	</div>
+</div>
+
+</body>
+</html>

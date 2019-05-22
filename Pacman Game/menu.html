@@ -1,0 +1,129 @@
+<!--
+  Menu for the game Pacman
+  Menu with buttons: "Play", "About game", "Credits"
+  author Anastasia Miagkii - 05/12/2019
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Pacman</title>
+	<style>
+		body { 
+			}
+		#class_background {
+			position: absolute;
+			background-image: url('assets/map/class_room.png');
+			background-repeat: no-repeat;
+			background-size: 78% 98%;
+			background-position: center center;
+			top: 350px;
+			left: 50%;
+			width: 1000px;
+			height: 640px;
+			margin-top: -320px;
+			margin-left: -500px;
+		}
+		.menu {
+			position: absolute;
+			font-family: Arial;
+			font-size: 1rem;
+			font-style: normal;
+			top: 26px;
+			background-color: black;
+			width: 50%;
+			height: 310px;
+			display: block;
+			margin-left: 25%;
+			margin-right: 25%;
+			text-align: center;
+			z-index: 1;
+			right: 2px;
+			}
+		.caption{
+			background-color: #8B0000;
+			margin-top: -22px;
+			}
+		.play{
+			
+			margin-top: 30px;
+			margin-left: 100px;
+			margin-right: 100px;
+			background-color: #FF0000;
+			border-radius: 20px;
+			}
+		.play:hover{
+			margin-top: 30px;
+			margin-left: 100px;
+			margin-right: 100px;
+			background-color: #b22222;
+			}
+		.about{
+			
+			margin-top: 50px;
+			margin-left: 100px;
+			margin-right: 100px;
+			background-color: #FF0000;
+			border-radius: 20px;
+			}
+		.about:hover{
+			margin-top: 50px;
+			margin-left: 100px;
+			margin-right: 100px;
+			background-color: #b22222;
+			}
+		.credits{
+			margin-top: 50px;
+			margin-left: 100px;
+			margin-right: 100px;
+			background-color: #FF0000;
+			border-radius: 20px;
+			}
+		.credits:hover{
+			margin-top: 50px;
+			margin-left: 100px;
+			margin-right: 100px;
+			background-color: #b22222;
+			}
+		.aboutcap{
+			background-color: #8B0000;
+			margin-top: 40px;
+
+			}
+	</style>
+</head>
+<body>
+<div id="class_background">
+	<div class="menu">
+		<div class="caption">
+			<h1>Pacman</h1>
+		</div>
+		<div class="play" onClick="document.location='index.html'">
+			<h2>Play</h2>
+		</div>
+		<!-- <div class="options" onClick="document.location='options.html'">
+			<h2>Settings</h2> 
+		</div> -->
+
+		<div class="about" onClick="document.location='about.html'">
+			<h2>About Game</h2>
+		</div>
+
+		<div class="credits" onClick="document.location='credits.html'">
+			<h2>Credits</h2>
+		</div>
+
+		<div class="aboutcap">
+			<h3> Created by CISC 3140 Group 2</h3>
+		</div>
+	</div>
+</div>
+<h1></h1>
+</body>
+</html>
+	
+
+
+
+

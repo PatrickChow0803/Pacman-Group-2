@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pacman Group 2</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- RP 2019-4-27 (dev only) for refreshing python -m SimpleHTTPServer -->
+  <!-- <meta http-equiv="refresh" content="3" /> -->
+  
+  <link rel="stylesheet" type="text/css" media="screen" href="map.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="classroom">
+    <canvas id="stats-canvas" width="200" height="100"></canvas>
+    <canvas id="pacman-canvas" width="645" height="400"></canvas>
+    <canvas id="bg-canvas" width="645" height="400"></canvas>
+  </div>
+
+    <img class="blood" src="assets/blood/blood_spatter_1.png" />
+
+  <!-- placing script here, otherwise will not work -->
+  <script src="canvas.js"></script>
+
+  <!-- Audio that appears during gameplay -->
+  <audio id="main_audio" src ="assets/sound/songs/Logical_Sequence_of_Events.mp3" loop="loop"></audio>
+
+</body>
+
+</html>
